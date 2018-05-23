@@ -2,6 +2,7 @@ import unittest
 
 from app.utils import create_driver_instance
 
+
 class TestTitle_s13976(unittest.TestCase):
 
     def setUp(self):
