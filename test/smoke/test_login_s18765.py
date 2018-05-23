@@ -11,7 +11,7 @@ class TestLoginS18765(unittest.TestCase):
     def setUp(self):
         self.browser = create_driver_instance.get_driver_instance()
         self.login_page = LoginPage(self.browser)
-        self.test_data = json.load(open("./skynet-test/test/smoke/s18765.json",'r'))
+        self.test_data = json.load(open("./skynet-test/test/smoke/testdata.json",'r'))
 
     def tearDown(self):
         self.browser.close()
